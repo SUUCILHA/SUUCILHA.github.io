@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5, 10, 5, 0.3), rgba(10, 40, 80, .2)), url(../img/bgc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right:auto;
+	border: solid;
+	background-color: rgba(10, 20, 50, .60);
+	
+}
+
+caption{
+	font-family:courier;
+	color: #ffffff;
+	font-size: 20px;
+	text-shadow: 4px 4px #1ABC9C;
+}
+
+th{
+	font-family: Courier;
+	color:ghostwhite;
+	font-size: 15px;
+}
+p{
+	font-size: 25px;
+}
+
+td{
+	color: #D0D3D4;
+}
+td,th{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 20px;
+
+}
+
+
+tr:hover{
+	background-color: #2874A6;
+}

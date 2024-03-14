@@ -1,0 +1,46 @@
+.nav{
+	background-color: rgba(0,40,70,.45);
+	overflow: hidden;
+}
+.main{
+	list-style: none; 
+}
+.nav .main>li{
+	padding: 1.25em;
+	width: 10%;
+	float: left;
+
+}
+.nav .main>li>a {
+	font-size: .88rem;
+	font-family: Candara;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav .main>li:hover, .nav .main>li>.sub>li:hover{
+	background: rgba(255, 195, 0, .75);
+}
+.nav .main>li>.sub{
+	position: absolute;
+	background-color: rgba(0, 40, 70, .90);
+	width: 12.5%;
+	list-style: none;
+	margin-top: 1.25em;
+	display: none;
+	margin-left: -1.25em;
+	text-align: center;
+}
+.nav .main>li:hover>.sub{
+	display: block;
+}
+.nav .main>li>.sub>li{
+	padding: 1em;
+}
+.nav .main>li>.sub>li>a{
+	text-decoration:none;
+	font-size: .75rem;
+	font-weight: bold;
+	color: #fff;
+}
